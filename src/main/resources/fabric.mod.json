@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "file-auto-login",
+  "version": "${version}",
+  "name": "FileAutoLogin",
+  "description": "Meteor Addon for Craked MC account automated login via file",
+  "authors": [
+    "Dorty"
+  ],
+  "contact": {
+    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.FileAutoLogin.addon.Addon"
+    ]
+  },
+  "mixins": [
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}
