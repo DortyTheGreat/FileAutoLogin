@@ -4,7 +4,7 @@ Meteor addon that automates authentication for cracked MC
 
 ### Download
 
-1.21.4 download in awailable in [to-do](to-do)
+1.21.4 download in awailable in [Releases](https://github.com/DortyTheGreat/FileAutoLogin/releases/latest)
 
 ### Dependencies
 
